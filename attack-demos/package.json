@@ -1,0 +1,22 @@
+{
+  "name": "mitm-attack-demos",
+  "version": "1.0.0",
+  "description": "Live security demonstrations for the encrypted messaging API",
+  "main": "mitm-attack-live.js",
+  "scripts": {
+    "demo:mitm": "node mitm-attack-live.js",
+    "demo:replay": "node replay-attack-live.js"
+  },
+  "keywords": [
+    "mitm",
+    "security",
+    "cryptography",
+    "diffie-hellman",
+    "digital-signatures"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}

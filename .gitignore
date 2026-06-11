@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Database
+*.db
+*.sqlite
+
+# Keys and certificates (for later phases)
+*.pem
+*.key
+*.crt
+keys/
+
+# React
+frontend/build/
+frontend/.env
+frontend/.vercel/
+frontend/npm-debug.log*
+
+# Backend
+backend/uploads/
+backend/.env
